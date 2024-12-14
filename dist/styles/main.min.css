@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: aqua;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 128px;
+}
+.container .soma {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .soma input {
+  padding: 8px;
+  width: 100px;
+  margin: 16px;
+}
+.container .soma span {
+  font-size: 24px;
+}
+.container .soma button {
+  padding: 8px;
+  width: 50px;
+  margin-top: 16px;
+}
+.container .resultado {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid;
+  padding: 16px;
+  display: none;
+}
+.container .resultado #r3 {
+  color: red;
+}
